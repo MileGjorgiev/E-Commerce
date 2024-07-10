@@ -1,0 +1,26 @@
+.head{
+    background-color: #151422;
+}
+header span {
+    color: whitesmoke;
+}
+
+.head img {
+    height: 5rem ;
+}
+span{
+    color: white;
+}
+.head1{
+    background-color: #151422;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 991px) {
+    #text {
+        display: none;
+    }
+}

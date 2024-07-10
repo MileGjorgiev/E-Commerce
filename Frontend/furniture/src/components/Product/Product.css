@@ -1,0 +1,29 @@
+.color-selection {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .color-radio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .color-radio input {
+    display: none;
+  }
+  
+  .color-radio .checkmark {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s;
+  }
+  
+  .color-radio input:checked + .checkmark {
+    border-color: #000;
+  }
+  

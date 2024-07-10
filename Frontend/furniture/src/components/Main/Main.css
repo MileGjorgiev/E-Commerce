@@ -1,0 +1,23 @@
+
+
+.full-width {
+    width: 97.7vw; /* Set the width to 100% of the viewport width */
+    height: 150px; /* Set a specific height to make the image shorter */
+    object-fit: cover;
+    display: block; /* Ensure the image behaves as a block element */
+}
+
+#popupImg{
+    height: 3rem;
+}
+
+#img-fluid{
+    width: 90%;
+}
+
+
+#bestSellers{
+    background-image: url('./Photos/photos/3.png');
+    height: 7rem;
+   
+}
